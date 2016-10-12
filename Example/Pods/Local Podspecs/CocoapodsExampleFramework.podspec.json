@@ -1,0 +1,22 @@
+{
+  "name": "CocoapodsExampleFramework",
+  "version": "0.1.0",
+  "summary": "A short description of CocoapodsExampleFramework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/CocoapodsExampleFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Tristan Behrens": "tristan.behrens@mhp.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/CocoapodsExampleFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CocoapodsExampleFramework/Classes/**/*"
+}

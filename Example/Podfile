@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'CocoapodsExampleFramework_Example' do
+  pod 'CocoapodsExampleFramework', :path => '../'
+
+  target 'CocoapodsExampleFramework_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+  end
+end
